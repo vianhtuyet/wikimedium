@@ -69,8 +69,8 @@
   }
   article h1 {
     width: calc(100% - 40px);
-    font-size: 30px;
-    line-height: 34px;
+    font-size: 40px;
+    line-height: 45px;
   }
   article h1 + p {
     margin-top: 15px;
@@ -98,10 +98,15 @@
   article img {
     margin: 70px auto 0;
   }
-}
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
  .sidebar { display: none; }
 }
+/* @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  body {
+    min-width: 500px;
+  }
+  article p { width: calc(100% - 40px); }
+} */
 @media all and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
 	.sidebar { display: none; }
 }
